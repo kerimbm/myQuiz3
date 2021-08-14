@@ -1,0 +1,93 @@
+head = `{
+    "title": "Les tableaux",
+    "subTitle": "tableau",
+    "author": "me",
+    "date": "24/06/2021",
+    "description": "Section : Les tableaux",
+    "norepeat": false,
+    "quizid": 1628875880985
+}`;
+
+data = `[
+    {
+        "type": "entry",
+        "points": 2,
+        "temps": 20,
+        "question": "Que contient : min(note) ?",
+        "code": "note = [19, 8, 5, 15, 11]",
+        "lang": "python",
+        "options": [[1, "5"]]
+    },
+    {
+        "type": "one",
+        "points": 2,
+        "temps": 20,
+        "question": "Que contient : puissance[0] ?",
+        "code": "puissance = [1, 2, 4, 8, 16, 32, 64, 128]",
+        "lang": "python",
+        "options": ["1", "2", "4", "8"]
+    },
+    {
+        "type": "entry",
+        "points": 2,
+        "temps": 20,
+        "question": "Que contient : max(note) ?",
+        "code": "note = [19, 8, 5, 15, 11]",
+        "lang": "python",
+        "options": [[1, "19"]]
+    },
+    {
+        "type": "multi",
+        "points": 2,
+        "temps": 30,
+        "question": "Que contient la liste : note ?",
+        "code": "note = [19, 8, 5, 15, 11]\\nnote.sort()",
+        "lang": "python",
+        "options": [["[5, 8, 11, 15, 19]", true], ["[]", false], ["[19, 8, 5, 15, 11]", false], ["[19, 15, 11, 8, 5]", false]]
+    },
+    {
+        "type": "entry",
+        "points": 2,
+        "temps": 20,
+        "question": "Que vaut maintenant : len(chiffre) ?",
+        "code": "chiffre = [0, 1, 2, 3, 4, 5]\\nchiffre.append(8)",
+        "lang": "python",
+        "options": [[1, "7"]]
+    },
+    {
+        "type": "multi",
+        "points": 2,
+        "temps": 30,
+        "question": "Que contient la liste : note ?",
+        "code": "note = [19, 8, 5, 15, 11]\\nnote.reverse()",
+        "lang": "python",
+        "options": [["[5, 8, 11, 15, 19]", false], ["[19, 15, 11, 8, 5]", false], ["[11, 15, 5, 8, 19]", true], ["[0, 0, 0, 0, 0]", false]]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 40,
+        "question": "Que contient la liste : multiple ?",
+        "code": "multiple = []\\nfor compteur in range(0, 5) :\\n   multiple.append(3 * compteur)",
+        "lang": "python",
+        "options": ["[0, 3, 6, 9, 12]", "[0, 3, 6, 9, 12, 15, 18]", "[3, 6, 9, 12, 15]", "[0, 3, 6, 9, 12, 15]"]
+    },
+    {
+        "type": "multi",
+        "points": 2,
+        "temps": 20,
+        "question": "Que contient la liste : impair ?",
+        "code": "impair = [1, 3, 5, 7, 9, 3]\\nimpair.remove(3)",
+        "lang": "python",
+        "options": [["[1, 5, 7, 9, 3]", true], ["[1, 3, 5, 9, 3]", false], ["[1, 5, 7, 9]", false], ["[1, 3, 5, 7, 9, 3]", false]]
+    },
+    {
+        "type": "multi",
+        "points": 3,
+        "temps": 30,
+        "question": "Que contient la liste : impair ?",
+        "code": "note = [7, 3, 5, 1, 9]\\nnote.sort()\\nnote.reverse()",
+        "lang": "python",
+        "options": [["[9, 7, 5, 3, 1]", true], ["[7, 3, 5, 1, 9]", false], ["Erreur", false], ["[9, 1, 5, 3, 7]", false]]
+    }
+]`;

@@ -1,0 +1,57 @@
+head = `{
+    "title": "Les types entier et réel",
+    "subTitle": "entier-reel",
+    "author": "me",
+    "date": "10/09/2020",
+    "description": "Section : Les types entier et réel",
+    "norepeat": false,
+    "quizid": 1599750974470
+}`;
+
+data = `[
+    {
+        "type": "entry",
+        "points": 4,
+        "temps": 40,
+        "question": "Évaluer l'expression ci-dessous, sachant que : A = 11.",
+        "code": "(A % 4)**2//2+1",
+        "lang": "python",
+        "options": [[1, "5"]]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 20,
+        "question": "Les nombres à virgule flottante sont codés sur :",
+        "code": "",
+        "lang": "python",
+        "options": ["8 octets", "7 octets", "9 octets"]
+    },
+    {
+        "type": "entry",
+        "points": 4,
+        "temps": 20,
+        "question": "Quel est le nombre d'octets réservés pour le type entier ?",
+        "code": "",
+        "lang": "python",
+        "options": [[1, "4"]]
+    },
+    {
+        "type": "entry",
+        "points": 4,
+        "temps": 60,
+        "question": "Quel est la valeur affichée par ce programme ?",
+        "code": "a = 7\\ni = 10\\nwhile i &#60; 20 and i % a !=0 :\\n    i += 1\\nprint(i)",
+        "lang": "python",
+        "options": [[1, "14"]]
+    },
+    {
+        "type": "multi",
+        "points": 4,
+        "temps": 30,
+        "question": "Quels sont les variables de type \\"float\\" ?",
+        "code": "",
+        "lang": "python",
+        "options": [["a = 9", false], ["b = 10 // 3", false], ["c = 9.5 ** 2", true], ["d = 10 / 2", true]]
+    }
+]`;

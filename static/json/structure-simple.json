@@ -1,0 +1,129 @@
+head = `{
+    "title": "Les structures simples",
+    "subTitle": "structure-simple",
+    "author": "me",
+    "date": "05/09/2020",
+    "description": "Section : Les structures simples",
+    "norepeat": false,
+    "quizid": 1626024059053
+}`;
+
+data = `[
+    {
+        "type": "multi",
+        "points": 2,
+        "temps": 40,
+        "question": "Une variable :",
+        "code": "",
+        "lang": "python",
+        "options": [["Est un objet modifiable tout le long d’un programme", true], ["Peut avoir plusieurs emplacements mémoire", false], ["Doit obligatoirement commencer par une lettre", true], ["Est sensible à la casse", true]]
+    },
+    {
+        "type": "drag",
+        "points": 2,
+        "temps": 70,
+        "question": "Lier chaque élément de la liste à gauche par sa description :",
+        "code": "",
+        "lang": "python",
+        "options": [["La variable", "Est placée à gauche du signe d'affectation"], ["L'expression", "Est placée à droite du signe d'affectation"], ["L'instruction de sortie", "print(variable)"], ["L'instruction d'entrée", "variable = input()"]]
+    },
+    {
+        "type": "one",
+        "points": 1,
+        "temps": 20,
+        "question": "Sous Python, cette instruction :",
+        "code": "x = y = z = 22",
+        "lang": "python",
+        "options": ["Est autorisée", "N'est pas autorisée"]
+    },
+    {
+        "type": "one",
+        "points": 2,
+        "temps": 30,
+        "question": "En programmation, cette instruction permet :",
+        "code": "A += B",
+        "lang": "python",
+        "options": ["D'ajouter la valeur de la variable B à A", "D'ajouter la valeur de la variable A à B", "De tester si A est supérieur à B"]
+    },
+    {
+        "type": "multi",
+        "points": 2,
+        "temps": 40,
+        "question": "En programmation, utiliser une variable permet de :",
+        "code": "",
+        "lang": "python",
+        "options": [["Réserver une zone mémoire", true], ["Stocker des valeurs", true], ["Spécifier le langage de programmation interprété à utilisé", false]]
+    },
+    {
+        "type": "one",
+        "points": 2,
+        "temps": 30,
+        "question": "Après l'exécution de l'instruction ci-dessous, les valeurs de a et b serons :",
+        "code": "a, b = b, a",
+        "lang": "python",
+        "options": ["Permutées", "Egaux", "Incrémentées"]
+    },
+    {
+        "type": "entry",
+        "points": 2,
+        "temps": 70,
+        "question": "Après l'exécution de la séquence d'instructions ci-dessous, la valeur de la variable A sera égale à :",
+        "code": "A = 5\\nB = 6\\nA = B+5\\nB = A-4\\nA += B",
+        "lang": "python",
+        "options": [[1, "18"]]
+    },
+    {
+        "type": "one",
+        "points": 1,
+        "temps": 20,
+        "question": "Laquelle des fonctions Python suivantes est utilisée pour l’affichage sur l'écran ?",
+        "code": "",
+        "lang": "python",
+        "options": ["print(\\"bonjour\\")", "echo(\\"bonjour\\")", "console.log(\\"bonjour\\")", "println(\\"bonjour\\")"]
+    },
+    {
+        "type": "one",
+        "points": 1,
+        "temps": 20,
+        "question": "Comment créer une variable nombre et lui donner la valeur 5 ?",
+        "code": "",
+        "lang": "python",
+        "options": ["nombre = 5", "nombre -&#62; 5", "nombre &#60;- 5"]
+    },
+    {
+        "type": "one",
+        "points": 1,
+        "temps": 30,
+        "question": "Que produit le code suivant ?",
+        "code": "a=10\\na++\\nprint(a)",
+        "lang": "python",
+        "options": ["Une erreur, car l'opérateur ++ n'existe pas en Python.", "10", "11", "12"]
+    },
+    {
+        "type": "one",
+        "points": 1,
+        "temps": 20,
+        "question": "Que calcule le code suivant en Python3 ?",
+        "code": "result = 1 / 3\\nprint(result)",
+        "lang": "python",
+        "options": ["0.333333333333", "0", "1/3", "Produit une erreur à l'exécution"]
+    },
+    {
+        "type": "one",
+        "points": 1,
+        "temps": 20,
+        "question": "Que contient la variable a ?",
+        "code": "a = 3\\na = a + 2\\na = 3 * a",
+        "lang": "python",
+        "options": ["15", "3", "a", "3 * a"]
+    },
+    {
+        "type": "entry",
+        "points": 2,
+        "temps": 30,
+        "question": "Qu'affiche l'exécution de ce programme ?",
+        "code": "x = 3\\ny = 4\\nz = 5\\noperation = (x + y) * z\\nprint(operation)",
+        "lang": "python",
+        "options": [[1, "35"]]
+    }
+]`;

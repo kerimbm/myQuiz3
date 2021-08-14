@@ -1,0 +1,84 @@
+head = `{
+    "title": "Les fonctions",
+    "subTitle": "fonction",
+    "author": "me",
+    "date": "05/09/2020",
+    "description": "Section : Les fonctions",
+    "norepeat": false,
+    "quizid": 1628889273051
+}`;
+
+data = `[
+    {
+        "type": "multi",
+        "points": 2,
+        "temps": 30,
+        "question": "Une fonction qui renvoie une valeur peut être placée :",
+        "code": "",
+        "lang": "python",
+        "options": [["A droite du signe d'affectation", true], ["Dans une autre fonction comme \\"print()\\"", true], ["A gauche du signe d'affectation", false]]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 30,
+        "question": "Qu'affiche le programme suivant ?",
+        "code": "def f(x):\\n    return 3x**2 - 6\\n\\nprint(f(3))",
+        "lang": "python",
+        "options": ["21", "22", "12", "rien"]
+    },
+    {
+        "type": "multi",
+        "points": 2,
+        "temps": 20,
+        "question": "Lesquels des instructions suivantes sont incorrectes :",
+        "code": "",
+        "lang": "python",
+        "options": [["a = sqrt(x)", false], ["print(sqrt(x))", false], ["sqrt(x) = 3", true]]
+    },
+    {
+        "type": "entry",
+        "points": 3,
+        "temps": 20,
+        "question": "Que renvoie : f (12) ?",
+        "code": "def f(x) :\\n   return 2 * x - 3",
+        "lang": "python",
+        "options": [[1, "21"]]
+    },
+    {
+        "type": "one",
+        "points": 2,
+        "temps": 40,
+        "question": "Que renvoie : fois_deux(plus_un(10)) ?",
+        "code": "def plus_un(x) :\\n   return x + 1\\ndef fois_deux(x) :\\n   return 2 * x",
+        "lang": "python",
+        "options": ["22", "21", "20", "23"]
+    },
+    {
+        "type": "entry",
+        "points": 3,
+        "temps": 30,
+        "question": "Que renvoie : f (9, 2) ?",
+        "code": "def f(x, y) :\\n   resultat = 3 * (x - y) + 2\\n   return resultat",
+        "lang": "python",
+        "options": [[1, "23"]]
+    },
+    {
+        "type": "multi",
+        "points": 3,
+        "temps": 40,
+        "question": "Les avantages de l'utilisation d'un sous-programme sont :",
+        "code": "",
+        "lang": "python",
+        "options": [["Meilleure lisibilité.", true], ["Diminution du risque d'erreurs.", true], ["Réutilisation des fonctions déjà existantes.", true], ["Simplicité de l'entretien.", true], ["Favorisation du travail seul.", false]]
+    },
+    {
+        "type": "drag",
+        "points": 2,
+        "temps": 40,
+        "question": "Relier chaque deux parties pour obtenir des réponses correctes :",
+        "code": "",
+        "lang": "python",
+        "options": [["La définition d'une fonction", "Doit commencer par def"], ["Le bloc d'instruction à l'intérieur d'une fonction", "Doit être indenté"], ["La fin d'une fonction", "Doit être marquée par un décalage de code à gauche"], ["global", "Doit être placer avant la modification de la variable"]]
+    }
+]`;

@@ -1,0 +1,57 @@
+head = `{
+    "title": "Les types réel et booléen",
+    "subTitle": "reel-booleen",
+    "author": "me",
+    "date": "29/06/2021",
+    "description": "Section : Les types réel et booléen",
+    "norepeat": false,
+    "quizid": 1626024707650
+}`;
+
+data = `[
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 20,
+        "question": "Les nombres à virgule flottante sont codés sur :",
+        "code": "",
+        "lang": "python",
+        "options": ["8 octets", "7 octets", "9 octets"]
+    },
+    {
+        "type": "multi",
+        "points": 4,
+        "temps": 30,
+        "question": "Quels sont les variables de type \\"float\\" ?",
+        "code": "",
+        "lang": "python",
+        "options": [["a = 9", false], ["b = 10 // 3", false], ["c = 9.5 ** 2", true], ["d = 10 / 2", true]]
+    },
+    {
+        "type": "entry",
+        "points": 4,
+        "temps": 45,
+        "question": "Évaluer l'expression ci-dessous, sachant que : A = 20 et B = True",
+        "code": "A % 4 == 0 and A // 3 != 6 or A &#62; 5 == (not B)",
+        "lang": "python",
+        "options": [[1, "FALSE", "FAUX", "FALSE", "FAUX"]]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 40,
+        "question": "Parmi les conditions suivantes, une seule est vraie. Laquelle ?",
+        "code": "",
+        "lang": "python",
+        "options": ["269 &#62;= 149 or 39 &#62;= 45", "269 &#62;= 149 and 39 &#62;= 45", "11 &#60; 63 and 39 &#62;= 45", "39 &#62;= 45 or 26 &#62; 69"]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 45,
+        "question": "Quelle est la seule condition fausse parmi les suivantes ?",
+        "code": "a = 4\\nb = 11",
+        "lang": "python",
+        "options": ["a + b == a * b", "a != b", "a + b != a * b", "a * b &#62; 35"]
+    }
+]`;

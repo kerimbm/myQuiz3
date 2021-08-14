@@ -1,0 +1,66 @@
+head = `{
+    "title": "Structure itérative complète",
+    "subTitle": "for",
+    "author": "me",
+    "date": "05/09/2020",
+    "description": "Section : Structure itérative complète",
+    "norepeat": false,
+    "quizid": 1605361285392
+}`;
+
+data = `[
+    {
+        "type": "entry",
+        "points": 3,
+        "temps": 40,
+        "question": "Quel est la dernière valeur affichée par ce programme ?",
+        "code": "for i in range(2, 10, 2) :\\n    print(i)",
+        "lang": "python",
+        "options": [[1, "8"]]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 15,
+        "question": "Le nombre d'itérations dans une boucle \\"for\\" est inconnue à l'avance :",
+        "code": "",
+        "lang": "python",
+        "options": ["Faux", "Vrai"]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 15,
+        "question": "Le compteur de la structure itérative complète est incrémenté automatiquement :",
+        "code": "",
+        "lang": "python",
+        "options": ["Vrai", "Faux"]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 40,
+        "question": "Quel est le rôle de ce programme ?",
+        "code": "A, B, P = 5, 6, 0\\nfor i in range(B) :\\n   P += A\\nprint(P)",
+        "lang": "python",
+        "options": ["Afficher le produit de A par B", "Afficher la somme de A et B", "Afficher le résultat de \\"A à la puissance B\\""]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 20,
+        "question": "Que fait le code suivant ?",
+        "code": "for i in range(0, 12):\\n    print(\\"BONJOUR\\")",
+        "lang": "python",
+        "options": ["Il affiche 12 fois BONJOUR", "Il affiche 11 fois BONJOUR", "Il affiche 13 fois BONJOUR", "Il affiche 14 fois BONJOUR"]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 30,
+        "question": "Quelle est la série de nombre affichée par ce programme ?",
+        "code": "for i in range(0, 4):\\n    print(i)",
+        "lang": "python",
+        "options": ["0, 1, 2 et 3", "0, 1, 2, 3 et 4", "0, 1, 2, 3, 4 et 5", "1, 2, 3 et 4"]
+    }
+]`;

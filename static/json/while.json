@@ -1,0 +1,84 @@
+head = `{
+    "title": "La structure itérative à condition d’arrêt",
+    "subTitle": "while",
+    "author": "me",
+    "date": "05/09/2020",
+    "description": "Section : La structure itérative à condition d’arrêt",
+    "norepeat": false,
+    "quizid": 1605362096034
+}`;
+
+data = `[
+    {
+        "type": "one",
+        "points": 2,
+        "temps": 15,
+        "question": "Le nombre d'itérations dans une boucle \\"Tant que\\" est connue à l'avance :",
+        "code": "",
+        "lang": "python",
+        "options": ["Faux", "Vrai"]
+    },
+    {
+        "type": "entry",
+        "points": 3,
+        "temps": 60,
+        "question": "Quel est la dernière valeur affichée par ce programme ?",
+        "code": "i = 15\\nwhile i &#62;= 10 :\\n    i -= 2\\n    print(i)",
+        "lang": "python",
+        "options": [[1, "9"]]
+    },
+    {
+        "type": "one",
+        "points": 2,
+        "temps": 20,
+        "question": "Pour que le bloc d'instruction à l'intérieur d'une structure \\"Tant que\\" s'exécute :",
+        "code": "",
+        "lang": "python",
+        "options": ["La condition doit être évaluée à \\"Vrai\\"", "La condition doit être évaluée à \\"Faux\\""]
+    },
+    {
+        "type": "one",
+        "points": 2,
+        "temps": 20,
+        "question": "L'exécution du bloc d'instruction à l'intérieur de la structure \\"Tant que\\" s'arrête lorsque :",
+        "code": "",
+        "lang": "python",
+        "options": ["La condition est évaluée à \\"Faux\\"", "La condition est évaluée à \\"Vrai\\""]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 50,
+        "question": "Quel est le rôle de ce programme ?",
+        "code": "nb = -1\\nwhile nb &#60; 0 :\\n    nb = int(input('Saisir un entier : '))",
+        "lang": "python",
+        "options": ["Permet de saisir un entier positif", "Permet de saisir un entier négatif", "Permet de saisir un entier différent de -1"]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 50,
+        "question": "Qu'affiche ce programme lors de son exécution ?",
+        "code": "jour = 1\\nwhile jour &#60;= 7 :\\n    print(jour)\\n    jour = jour + 1",
+        "lang": "python",
+        "options": ["1 2 3 4 5 6 7", "2 3 4 5 6 7", "1 2 3 4 5 6 7 8", "2 3 4 5 6 7 8"]
+    },
+    {
+        "type": "one",
+        "points": 2,
+        "temps": 50,
+        "question": "Qu'affiche ce programme lors de son exécution ?",
+        "code": "jour = 1\\nwhile jour &#60;= 7 :\\n    jour = jour + 1\\nprint(jour)",
+        "lang": "python",
+        "options": ["8", "7", "2 3 4 5 6 7", "2 3 4 5 6 7 8"]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 50,
+        "question": "Qu'affiche ce programme lors de son exécution ?",
+        "code": "nombre = 1\\nwhile nombre &#62; 0 :\\n    print(nombre)\\n    nombre = nombre + 1",
+        "lang": "python",
+        "options": ["1 2 3 4 5 6 7 8 9 ... INFINI", "Erreur", "Rien", "1 2 3 4 5 6 7 8 9"]
+    }
+]`;

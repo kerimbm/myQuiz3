@@ -1,0 +1,57 @@
+head = `{
+    "title": "Les procédures",
+    "subTitle": "procedure",
+    "author": "me",
+    "date": "13/08/2021",
+    "description": "Section : Les procédures",
+    "norepeat": false,
+    "quizid": 1628890366299
+}`;
+
+data = `[
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 20,
+        "question": "Les variables locaux à une procédure sont accessibles à partir du programme principal :",
+        "code": "",
+        "lang": "python",
+        "options": ["Faux", "Vrai"]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 20,
+        "question": "Les variables du programme principal sont accessibles à partir d'une procédure :",
+        "code": "",
+        "lang": "python",
+        "options": ["Vrai", "Faux"]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 30,
+        "question": "Pour modifier une variable du programme principale on doit utiliser l'instruction :",
+        "code": "",
+        "lang": "python",
+        "options": ["global", "program", "root", "def"]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 40,
+        "question": "Quelle valeur sera affichée si on exécute le programme ci-dessus ? ",
+        "code": "def f():\\n    a=3\\n    b=a+1\\n    print((a**2+b**2)**0.5)\\n\\nf()",
+        "lang": "python",
+        "options": ["5.0", "13.0", "12.5", "7.0"]
+    },
+    {
+        "type": "entry",
+        "points": 4,
+        "temps": 50,
+        "question": "Écrire le résultat Afficher par cette procédure :",
+        "code": "def maFonction():\\n    s = 0\\n    ch = '2info2'\\n    s += int(ch[0])**2\\n    s += ord(ch[-1])\\n   print(s)",
+        "lang": "python",
+        "options": [[1, "54"]]
+    }
+]`;

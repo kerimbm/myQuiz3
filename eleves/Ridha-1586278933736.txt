@@ -1,0 +1,27 @@
+numQuestInJson 2
+numRepInQuiz 2-------,
+optionsInQuiz [2, 0, 1]
+
+//one
+reponse = `[
+    {
+        "numQuestInJson": 2,
+        "numRepInQuiz": 2,
+        "optionsInQuiz": [2, 0, 1]
+    },
+    {
+        "numQuestInJson": 1,
+        "numRepInQuiz": 3,
+        "optionsInQuiz": [1, 2, 3, 0]
+    },
+    {
+        "numQuestInJson": 0,
+        "numRepInQuiz": 1,
+        "optionsInQuiz": [1, 0, 2]
+    },
+    {
+        "numQuestInJson": 3,
+        "numRepInQuiz": 1,
+        "optionsInQuiz": [0, 1]
+    }
+]`;

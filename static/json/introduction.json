@@ -1,0 +1,84 @@
+head = `{
+    "title": "introduction",
+    "subTitle": "introduction",
+    "author": "me",
+    "date": "05/09/2020",
+    "description": "Section : Introduction",
+    "norepeat": false,
+    "quizid": 1626024366453
+}`;
+
+data = `[
+    {
+        "type": "multi",
+        "points": 2,
+        "temps": 30,
+        "question": "Un langage de programmation sert à traduire :",
+        "code": "",
+        "lang": "python",
+        "options": [["Un programme source en langage binaire", true], ["Un programme binaire en langage machine", false], ["Un programme source en langage machine", true]]
+    },
+    {
+        "type": "sort",
+        "points": 3,
+        "temps": 60,
+        "question": "Ordonner les étapes d'exécution d'un programme écrit en langage compilé :",
+        "code": "",
+        "lang": "python",
+        "options": ["Ecriture du programme source", "Compilation et vérification de la syntaxe", "Traduction en programme exécutable", "Exécution"]
+    },
+    {
+        "type": "sort",
+        "points": 2,
+        "temps": 30,
+        "question": "Ordonner les étapes d'exécution d'un programme écrit en langage interprété :",
+        "code": "",
+        "lang": "python",
+        "options": ["Ecriture du programme source", "Vérifier chaque instruction", "Exécution de chaque instruction après sa vérification"]
+    },
+    {
+        "type": "drag",
+        "points": 3,
+        "temps": 30,
+        "question": "Lier chaque terme par sa définition :",
+        "code": "",
+        "lang": "python",
+        "options": [["Python", "Est un langage de programmation interprété"], ["Le langage C", "Est un langage de programmation compilé"], ["Un logiciel", "Est une suite d'instructions écrites en langage machine"], ["Le processeur d'un ordinateur", "Exécute des instructions écrites en langage machine"]]
+    },
+    {
+        "type": "multi",
+        "points": 3,
+        "temps": 40,
+        "question": "Un programme écrit en langage interprété :",
+        "code": "",
+        "lang": "python",
+        "options": [["Est un programme source", true], ["Est un programme exécutable", true], ["Peut comporter des erreurs", true], ["Est un programme binaire", false], ["Sera interprété à chaque exécution", true], ["Est autonome (ne dépend pas de l'interpréteur)", false]]
+    },
+    {
+        "type": "multi",
+        "points": 3,
+        "temps": 40,
+        "question": "Un programme écrit en langage compilé :",
+        "code": "",
+        "lang": "python",
+        "options": [["Est un programme source", false], ["Est un programme exécutable", true], ["Peut comporter des erreurs", false], ["Est un programme binaire", true], ["Sera compilé à chaque exécution", false], ["Est autonome (ne dépend pas du compilateur)", true]]
+    },
+    {
+        "type": "multi",
+        "points": 2,
+        "temps": 30,
+        "question": "Python peut être installé sur :",
+        "code": "",
+        "lang": "python",
+        "options": [["Mac OS", true], ["Linux", true], ["Windows", true], ["Firefox", false], ["Un éditeur de texte", false]]
+    },
+    {
+        "type": "one",
+        "points": 2,
+        "temps": 20,
+        "question": "Quel est le type du langage Python ?",
+        "code": "",
+        "lang": "python",
+        "options": ["Un langage de haut-niveau", "Un langage de bas-niveau", "Un langage de moyen-niveau"]
+    }
+]`;

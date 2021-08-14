@@ -1,0 +1,57 @@
+head = `{
+    "title": "Démarche de résolution des problèmes",
+    "subTitle": "demarche-resolution",
+    "author": "me",
+    "date": "05/09/2020",
+    "description": "Section : Démarche de résolution des problèmes",
+    "norepeat": false,
+    "quizid": 1626023423776
+}`;
+
+data = `[
+    {
+        "type": "sort",
+        "points": 4,
+        "temps": 30,
+        "question": "Ordonner les étapes de résolution des problèmes :",
+        "code": "",
+        "lang": "python",
+        "options": ["Analyse", "Algorithme", "Ecriture du programme et test", "Correction des erreurs et amélioration"]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 20,
+        "question": "Un algorithme est une suite d'instructions écrites en :",
+        "code": "",
+        "lang": "python",
+        "options": ["Langage formel", "Langage machine", "Langage de programmation", "Langage humaine"]
+    },
+    {
+        "type": "multi",
+        "points": 4,
+        "temps": 20,
+        "question": "Un T.D.O sert à :",
+        "code": "",
+        "lang": "python",
+        "options": [["Spécifier les types des objets utilisés dans un programme", true], ["Vérifiers les objets utilisés dans un programme", false], ["Spécifier les noms des objets utilisés dans un programme", true]]
+    },
+    {
+        "type": "multi",
+        "points": 4,
+        "temps": 20,
+        "question": "Blockly :",
+        "code": "",
+        "lang": "python",
+        "options": [["Est une interface de programmation en blocs", true], ["Est un ensemble de jeux pour enfants", false], ["Permet de programmer des applications système bas niveau", false], ["Est utilisé à des fins éducatives", true]]
+    },
+    {
+        "type": "drag",
+        "points": 4,
+        "temps": 30,
+        "question": "Relier chaque terme avec sa définition :",
+        "code": "",
+        "lang": "python",
+        "options": [["%%tutor", "Est une directive d'exécution des programmes étape par étape"], ["Blockly", "Est une interface de programmation graphique"], ["Un algorithme", "Est une suite d'instructions ordonnée et fini"]]
+    }
+]`;

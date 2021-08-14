@@ -1,0 +1,31 @@
+.check {
+    display: none;
+}
+
+.label-check {
+    min-width: 500px;
+    //font-family: 'Noto Sans', sans-serif;
+    //font-size: 14px;
+    text-align: center;
+    position: relative;
+    padding: 8px 14px;
+    margin: 8px 0px;
+    float: left;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #b0b3cc;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color .2s, box-shadow .2s;
+}
+
+ .label-check:hover {
+    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+}
+
+.check:checked + .label-check {
+    background-color: #aaddaa;
+}

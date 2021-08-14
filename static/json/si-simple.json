@@ -1,0 +1,65 @@
+head = `{
+    "title": "La structure conditionnelle simple",
+    "author": "me",
+    "date": "05/09/2020",
+    "description": "Section : La structure conditionnelle simple",
+    "norepeat": false,
+    "quizid": 1605360367408
+}`;
+
+data = `[
+    {
+        "type": "entry",
+        "points": 3,
+        "temps": 60,
+        "question": "Ecrire le résultat du programme suivant :",
+        "code": "a, b = 5, 7\\nif a &#62; b :\\n    m = a\\nelse :\\n    m = b\\nprint(m)",
+        "lang": "python",
+        "options": [[1, "7"]]
+    },
+    {
+        "type": "multi",
+        "points": 3,
+        "temps": 50,
+        "question": "Dans une structure conditionnelle simple, le bloc d'instruction doit être :",
+        "code": "",
+        "lang": "python",
+        "options": [["Décalé à droite par rapport à if", true], ["Décalé à gauche par rapport à if", false], ["Indenté par rapport à if", true], ["Ecrit sans indentation", false]]
+    },
+    {
+        "type": "sort",
+        "points": 4,
+        "temps": 70,
+        "question": "Ordonner les instructions suivantes pour obtenir un programme qui affiche 10 :",
+        "code": "",
+        "lang": "python",
+        "options": ["a, b = 2, 8", "if a &#62; b :", "    a -= b", "else :", "    a += b", "print(a)"]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 60,
+        "question": "Quel est le rôle de ce programme ?",
+        "code": "a, b = 5, 3\\nif a &#60; b :\\n    m = a\\nelse :\\n    m = b\\nprint(m)",
+        "lang": "python",
+        "options": ["Afficher le minimum de deux nombres", "Afficher le maximum de deux nombres", "Permuter deux nombres"]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 50,
+        "question": "Quel est le rôle de ce programme ?",
+        "code": "a = -3\\nif a &#60; 0 :\\n    a = -a\\nprint(a)",
+        "lang": "python",
+        "options": ["Afficher la valeur absolu de a", "Afficher l'inverse de a", "Afficher -3"]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 20,
+        "question": "A quoi sert le mot-clé if dans Python ?",
+        "code": "",
+        "lang": "python",
+        "options": ["A vérifier si une condition est remplie", "A exécuter un bout de code tant que la condition est remplie.", "A répéter un bloc d'instructions plusieurs fois"]
+    }
+]`;

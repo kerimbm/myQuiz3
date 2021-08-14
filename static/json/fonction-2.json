@@ -1,0 +1,84 @@
+head = `{
+    "title": "Les fonctions",
+    "subTitle": "fonction-2",
+    "author": "me",
+    "date": "05/09/2020",
+    "description": "Section : Les fonctions - 2ème partie",
+    "norepeat": false,
+    "quizid": 1605363047923
+}`;
+
+data = `[
+    {
+        "type": "multi",
+        "points": 3,
+        "temps": 30,
+        "question": "Une fonction qui renvoie une valeur peut être placée :",
+        "code": "",
+        "lang": "python",
+        "options": [["Dans une expression à droite du signe d'affectation", true], ["Dans une autre fonction comme \\"print()\\"", true], ["Dans la condition d'une structure conditionnelle", true], ["Dans la condition d'une structure à condition d'arrêt", true]]
+    },
+    {
+        "type": "sort",
+        "points": 3,
+        "temps": 30,
+        "question": "Ordonner les instructions suivantes pour obtenir une fonction qui renvoie un entier entre 0 et 20 :",
+        "code": "",
+        "lang": "python",
+        "options": ["def saisie():", "    n = -1", "    while n &#60; 0 or n &#62; 20 :", "        n = int(input('Saisir un entier entre 0 et 20'))", "    return n"]
+    },
+    {
+        "type": "multi",
+        "points": 2,
+        "temps": 20,
+        "question": "Lesquels des instructions suivantes sont incorrectes :",
+        "code": "",
+        "lang": "python",
+        "options": [["a = sqrt(x)", false], ["print(sqrt(x))", false], ["if sqrt(x) &#62; 5:", false], ["sqrt(x) = 3", true]]
+    },
+    {
+        "type": "entry",
+        "points": 3,
+        "temps": 70,
+        "question": "Ecrire le résultat renvoyé par cette fonction :",
+        "code": "def maFonction(x):\\n    s = 0\\n    for i in range(20, 10, -2):\\n        s += i\\n    return s",
+        "lang": "python",
+        "options": [[1, "80"]]
+    },
+    {
+        "type": "entry",
+        "points": 3,
+        "temps": 20,
+        "question": "Que renvoie : f (12) ?",
+        "code": "def f(x) :\\n   return 2 * x - 3",
+        "lang": "python",
+        "options": [[1, "21"]]
+    },
+    {
+        "type": "one",
+        "points": 2,
+        "temps": 40,
+        "question": "Que renvoie l'appel : moment_journee (10) ?",
+        "code": "def moment_journee(heure) :\\n   if heure &#60;= 7 :\\n       reponse = \\"nuit\\"\\n   elif 8 &#60;= heure &#60;= 12 :\\n       reponse = \\"matin\\"\\n   elif 12 &#60;= heure &#60;= 20 :\\n       reponse = \\"apres-midi\\"\\n   else :\\n       reponse = \\"soir\\"\\n   return reponse",
+        "lang": "python",
+        "options": ["matin", "nuit", "apres-midi", "soir"]
+    },
+    {
+        "type": "entry",
+        "points": 2,
+        "temps": 30,
+        "question": "Que renvoie : f (9, 2) ?",
+        "code": "def f(x, y) :\\n   resultat = 3 * (x - y) + 2\\n   return resultat",
+        "lang": "python",
+        "options": [[1, "23"]]
+    },
+    {
+        "type": "one",
+        "points": 2,
+        "temps": 40,
+        "question": "Que renvoie : fois_deux(plus_un(10)) ?",
+        "code": "def plus_un(x) :\\n   return x + 1\\ndef fois_deux(x) :\\n   return 2 * x",
+        "lang": "python",
+        "options": ["22", "21", "20", "23"]
+    }
+]`;

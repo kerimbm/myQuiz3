@@ -1,0 +1,57 @@
+head = `{
+    "title": "Les structures conditionnelles (Suite)",
+    "subTitle": "if-selon",
+    "author": "me",
+    "date": "13/08/2021",
+    "description": "Section : si généralisée et selon",
+    "norepeat": false,
+    "quizid": 1628892875043
+}`;
+
+data = `[
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 30,
+        "question": "L'utilisation de \\"else\\" dans une structure conditionnelle généralisée est limité à :",
+        "code": "",
+        "lang": "python",
+        "options": ["Une seule fois", "Sans limite", "Trois fois"]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 40,
+        "question": "Pour marquer la fin d'un bloc d'instruction dans une structure conditionnelle on doit :",
+        "code": "",
+        "lang": "python",
+        "options": ["Ecrire l'instruction suivante au début de ligne", "Indenté l'instruction suivante", "Ecrire \\":\\" à la fin de l'instruction suivante"]
+    },
+    {
+        "type": "multi",
+        "points": 4,
+        "temps": 40,
+        "question": "La structure de contrôle à choix multiple permet d’évaluer des conditions de type :",
+        "code": "",
+        "lang": "python",
+        "options": [["sélecteur == valeur", true], ["sélecteur &#62; valeur", false], ["sélecteur in valeur", false], ["not (sélecteur == valeur)", false]]
+    },
+    {
+        "type": "drag",
+        "points": 4,
+        "temps": 50,
+        "question": "Lier chaque élément de la liste à gauche par sa description :",
+        "code": "",
+        "lang": "python",
+        "options": [["La structure conditionnelle simple", "Doit avoir au maximum deux blocs d'instructions"], ["La structure conditionnelle généralisée", "Peut avoir plusieurs blocs d'instructions"], ["elif", "Est utilisée dans une structure conditionnelle généralisée"], ["else", "Peut être utilisée dans les deux types de structures conditionnelles"]]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 30,
+        "question": "Que fait le code suivant ?",
+        "code": "a = 123\\nif a &#60; 100:\\n    print(\\"a est petit.\\")\\nelif a &#62; 200:\\n    print(\\"a est grand.\\")\\nelse:\\n    print(\\"a n'est pas très grand\\")",
+        "lang": "python",
+        "options": ["Il affiche « a n'est pas très grand »", "Il n'affiche rien", "Il affiche « a est grand", "Il affiche « a est petit »"]
+    }
+]`;

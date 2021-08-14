@@ -1,0 +1,66 @@
+head = `{
+    "title": "Les fonctions",
+    "subTitle": "fonction-1",
+    "author": "me",
+    "date": "05/09/2020",
+    "description": "Section : Les fonctions - 1ère partie",
+    "norepeat": false,
+    "quizid": 1599309459463
+}`;
+
+data = `[
+    {
+        "type": "multi",
+        "points": 4,
+        "temps": 40,
+        "question": "Les avantages de l'utilisation d'une fonction sont :",
+        "code": "",
+        "lang": "python",
+        "options": [["Meilleure lisibilité.", true], ["Diminution du risque d'erreurs.", true], ["Réutilisation des fonctions déjà existantes.", true], ["Simplicité de l'entretien.", true], ["Favorisation du travail seul.", false]]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 20,
+        "question": "Les variables locaux à une fonction sont accessibles à partir du programme principal :",
+        "code": "",
+        "lang": "python",
+        "options": ["Faux", "Vrai"]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 20,
+        "question": "Les variables du programme principal sont accessibles à partir d'une fonction :",
+        "code": "",
+        "lang": "python",
+        "options": ["Vrai", "Faux"]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 30,
+        "question": "Pour modifier une variable du programme principale on doit utiliser l'instruction :",
+        "code": "",
+        "lang": "python",
+        "options": ["global", "program", "root", "def"]
+    },
+    {
+        "type": "sort",
+        "points": 3,
+        "temps": 40,
+        "question": "Ordonner ces instructions pour obtenir une fonction qui affiche le minimum de deux nombres :",
+        "code": "",
+        "lang": "python",
+        "options": ["def minimum(a, b) :", "    if a &#62; b :", "        print(b)", "    else:", "        print(a)"]
+    },
+    {
+        "type": "drag",
+        "points": 4,
+        "temps": 50,
+        "question": "Relier chaque deux parties pour obtenir des réponses correctes :",
+        "code": "",
+        "lang": "python",
+        "options": [["La définition d'une fonction", "Doit commencer par def"], ["Le bloc d'instruction à l'intérieur d'une fonction", "Doit être indenté"], ["La fin d'une fonction", "Doit être marquée par un décalage de code à gauche"], ["global", "Doit être placer avant la modification de la variable"]]
+    }
+]`;

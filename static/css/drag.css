@@ -1,0 +1,46 @@
+#drag-container{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 695px;
+    height: 100%;
+    /*border: 1px solid #ccc;*/
+}
+.contenersvg{
+    position: absolute;
+    /*float: left;*/
+    width: 315px;
+    height: 70px;
+}
+
+.textsvg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 5px;
+    width: 272px;
+    height: 60px;
+    font-size: 16px;
+    padding-left: 4px;
+    //font-family: Arial;
+    color: #555;
+    user-select: none;
+}
+
+.text-q{
+    left: 9px;
+}
+
+.text-r{
+    cursor:pointer;
+    left: 34px;
+}
+
+.shadow-svg-1{
+    filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, .5));
+}
+
+.shadow-svg-2{
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, .5));
+}

@@ -1,0 +1,66 @@
+head = `{
+    "title": "Le type chaîne de caractères",
+    "subTitle": "chaine",
+    "author": "me",
+    "date": "29/06/2021",
+    "description": "Section : Chaîne de caractères",
+    "norepeat": false,
+    "quizid": 1624996408166
+}`;
+
+data = `[
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 35,
+        "question": "Quel est le résultat des instructions ci-dessous ?",
+        "code": "ch = 'Système'\\nprint(ch[len(ch)])",
+        "lang": "python",
+        "options": ["Erreur", "'m'", "'e'", "\\"m\\""]
+    },
+    {
+        "type": "multi",
+        "points": 4,
+        "temps": 35,
+        "question": "Soit la chaîne ch ci-dessous, trouver les instructions incorrectes.",
+        "code": "ch = 'Bureau 2'",
+        "lang": "python",
+        "options": [["car = ch[0]", false], ["ch[1] = 'a'", true], ["nb = int(ch[len(ch)-1])", false], ["nb = int(ch[len(ch)])", true]]
+    },
+    {
+        "type": "drag",
+        "points": 3,
+        "temps": 35,
+        "question": "Relier chaque instruction par son type de résultat, sachant que :",
+        "code": "ch = 'python3'",
+        "lang": "python",
+        "options": [["ch[6]", "est de type : 'str'"], ["len(ch)", "est de type : 'int'"], ["int(ch[6]) == 3", "est de type : 'boolean'"]]
+    },
+    {
+        "type": "multi",
+        "points": 3,
+        "temps": 40,
+        "question": "Quels sont les différences entre ces deux instructions, sachant que ch est une chaîne de caractère ?",
+        "code": "for i in len(ch) :\\nfor car in ch :",
+        "lang": "python",
+        "options": [["i prend les indices des caractères de ch", true], ["car prend les caractères de ch", true], ["i prend les caractères de ch", false], ["car prend les indices des caractères de ch", false]]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 35,
+        "question": "Parmi les conditions suivantes, une seule est vraie. Laquelle ?",
+        "code": "",
+        "lang": "python",
+        "options": ["\\"sept\\" &#60; \\"six\\"", "\\"ahmed\\" &#62; \\"bilel\\"", "\\"avant\\" &#60; \\"après\\"", "\\"passé\\" &#60; \\"futur\\""]
+    },
+    {
+        "type": "one",
+        "points": 3,
+        "temps": 20,
+        "question": "Qu'affiche l'instruction suivante ?",
+        "code": "print(\\"29\\" + \\"5\\")",
+        "lang": "python",
+        "options": ["295", "Une erreur", "145", "34"]
+    }
+]`;

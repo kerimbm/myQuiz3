@@ -1,0 +1,57 @@
+head = `{
+    "title": "Le type entier",
+    "subTitle": "entier",
+    "author": "me",
+    "date": "29/06/2021",
+    "description": "Section : Le type entier",
+    "norepeat": false,
+    "quizid": 1624963596660
+}`;
+
+data = `[
+    {
+        "type": "entry",
+        "points": 4,
+        "temps": 45,
+        "question": "Quelle valeur sera affichée par le programme ci-dessous ?",
+        "code": "a = 11\\na = (a % 4)**2 // 2 + 1\\nprint(a)",
+        "lang": "python",
+        "options": [[1, "5"]]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 20,
+        "question": "Le type entier est codé sur :",
+        "code": "",
+        "lang": "python",
+        "options": ["4 octets", "2 octets", "6 octets"]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 35,
+        "question": "Quelle valeur sera affichée par le programme ci-dessous ?",
+        "code": "a = 22 \\nb = 12 \\nprint((a // b) + (a % b)) ",
+        "lang": "python",
+        "options": ["11", "11.83", "34", "2"]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 35,
+        "question": "Quelle valeur sera affichée par le programme ci-dessous ?",
+        "code": "a = 5\\na = a - 2\\na = a * a + 1\\nprint(a)",
+        "lang": "python",
+        "options": ["10", "16", "26", "12"]
+    },
+    {
+        "type": "entry",
+        "points": 4,
+        "temps": 45,
+        "question": "Quelle valeur sera affichée par le programme ci-dessous ?",
+        "code": "a = 10\\nb = a // 3\\na = a * b +a % b\\nprint(a)",
+        "lang": "python",
+        "options": [[1, "31"]]
+    }
+]`;

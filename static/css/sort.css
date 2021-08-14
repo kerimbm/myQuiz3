@@ -1,0 +1,39 @@
+body {
+    //font: 18px Arial, Helvetica, sans-serif;
+}
+#ord{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+
+.item, .div-shadow, .item-selected {
+    margin:8px;
+    padding:10px;
+    width: 500px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 6px;
+    background: linear-gradient(0deg, #eaeaea, #fbfbfb);
+    /*background-color: #ff9;*/
+    color: #444;
+    border: 1px solid #bbb;
+    user-select: none;
+}
+
+.item:hover{
+    cursor: pointer;
+    background: linear-gradient(0deg, #fe9, #ffa);
+}
+
+.div-shadow{
+    position: absolute;
+    background: linear-gradient(0deg, #fe9, #ffa);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+}
+
+.item-selected{
+    background: inherit;
+    background-color: transparent;
+    color: transparent;
+}

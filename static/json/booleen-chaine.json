@@ -1,0 +1,57 @@
+head = `{
+    "title": "Les types booléen et chaîne de caractères",
+    "subTitle": "booleen-chaine",
+    "author": "me",
+    "date": "10/09/2020",
+    "description": "Section : Booléen et chaîne de caractères",
+    "norepeat": false,
+    "quizid": 1605364034479
+}`;
+
+data = `[
+    {
+        "type": "entry",
+        "points": 4,
+        "temps": 70,
+        "question": "Évaluer l'expression ci-dessous, sachant que : A = 20 et B = True",
+        "code": "A % 4 == 0 and A % 3 != 2 or A // 3 &#62; 5 == (not B)",
+        "lang": "python",
+        "options": [[1, "FALSE", "FAUX"]]
+    },
+    {
+        "type": "one",
+        "points": 4,
+        "temps": 30,
+        "question": "Quel est le résultat des instructions ci-dessous ?",
+        "code": "ch = 'Système'\\nprint(ch[len(ch)])",
+        "lang": "python",
+        "options": ["Erreur", "'m'", "'e'", "\\"e\\""]
+    },
+    {
+        "type": "multi",
+        "points": 4,
+        "temps": 40,
+        "question": "Soit la chaîne ch ci-dessous, trouver les instructions incorrectes.",
+        "code": "ch = 'Bureau 2'",
+        "lang": "python",
+        "options": [["car = ch[0]", false], ["ch[1] = 'a'", true], ["nb = int(ch[len(ch)-1])", false], ["nb = int(ch[len(ch)])", true]]
+    },
+    {
+        "type": "drag",
+        "points": 4,
+        "temps": 40,
+        "question": "Relier chaque instruction par son type de résultat, sachant que :",
+        "code": "ch = 'python3'",
+        "lang": "python",
+        "options": [["ch[6]", "est de type : 'str'"], ["len(ch)", "est de type : 'int'"], ["int(ch[6]) == 3", "est de type : 'boolean'"]]
+    },
+    {
+        "type": "multi",
+        "points": 4,
+        "temps": 60,
+        "question": "Quels sont les différences entre ces deux instructions, sachant que ch est une chaîne de caractère ?",
+        "code": "for i in len(ch) :\\nfor car in ch :",
+        "lang": "python",
+        "options": [["'i' prend les rang des caractères de ch", true], ["'car' prend les caractères de ch", true], ["i prend les caractères de ch", false], ["car prend les rang des caractères de ch", false]]
+    }
+]`;
